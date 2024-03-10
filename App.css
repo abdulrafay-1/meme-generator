@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.meme-con {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.meme-con > div {
+  border: 2px solid grey;
+}
+
+.meme-con img {
+  cursor: pointer;
+  width: 300px;
+  object-fit: cover;
+}
